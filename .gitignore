@@ -1,0 +1,19 @@
+# Node
+node_modules/
+dist/
+.env
+# .env.*    # .env.test, .env.production etc.
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# Prisma
+prisma/dev.db
+prisma/migrations/
+
+# Optional
+.DS_Store
