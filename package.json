@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn src/index.ts",
+    "start": "ts-node src/index.ts",
     "test": "cross-env NODE_ENV=test jest"
   },
   "keywords": [],
